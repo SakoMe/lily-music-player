@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Creative Audio Visualizers | Demo 3 | Codrops</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize-min.css" />
+	<link rel="stylesheet" type="text/css" href="css/main-min.css" />
+	<script>
+		document.documentElement.className = 'js';
+	</script>
+</head>
+
+<body class="song-3">
+	<main class="site-wrapper">
+		<header class="header">
+			<h1 class="header--title">Lily's Music Player</h1>
+			<nav class="songs">
+				<a class="song" href="index.html">Song 1</a>
+				<a class="song" href="index2.html">Song 2</a>
+				<a class="song song--current" href="index3.html">Song 3</a>
+				<a class="song" href="index4.html">Song 4</a>
+				<a class="song" href="index5.html">Song 5</a>
+			</nav>
+		</header>
+		<div class="content main">
+			<div class="canvas-wrapper">
+				<div id="p5_loading" class="p5_loading">
+					<div class="p5_loading__inner">
+						<span></span>
+					</div>
+				</div>
+				<div id="uploading-animation" class="p5_loading">
+					<div class="p5_loading__inner">
+						<span></span>
+					</div>
+				</div>
+				<canvas id="webglcanvas"></canvas>
+			</div>
+		</div>
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+	<script src="js/main3.js"></script>
+</body>
+
+</html>
